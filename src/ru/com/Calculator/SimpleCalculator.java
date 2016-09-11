@@ -47,7 +47,7 @@ public class SimpleCalculator {
         frame1.setContentPane(myFlame);
         // Привязываем контент c кнопками и др
         //Размеры окна
-        frame1.setSize(250, 200);
+        frame1.setSize(350, 150);
         //Добавляем кнопки (Свернуть, полный экран и закрыть)
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //Указываем Видимость панели
