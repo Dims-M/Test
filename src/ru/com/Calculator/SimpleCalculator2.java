@@ -68,6 +68,12 @@ public class SimpleCalculator2 {
         p1.add(buttonPoint);
         p1.add(buttonEqual);
 
+        windowsContent.add("Center",p1);
+
+        JFrame frame = new JFrame("Калькулятор");
+        frame.setContentPane(windowsContent);// Усатанавливаем контейнер с нашими кнопками на основное окно
+
+        frame.pack(); // Указываем авто настро размера изображения
 
     } // Конец конструктора
 
