@@ -12,7 +12,12 @@ public class CalculatorEngine implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        JOptionPane.showConfirmDialog(null,"Text epte","test", JOptionPane.PLAIN_MESSAGE);
+
+        JButton clickedButton = (JButton)e.getSource();
+        String clickedButtonLabel = clickedButton.getText();
+
+
+        JOptionPane.showConfirmDialog(null,"Text epte"+ clickedButtonLabel,"test", JOptionPane.PLAIN_MESSAGE);
 
 
     }
