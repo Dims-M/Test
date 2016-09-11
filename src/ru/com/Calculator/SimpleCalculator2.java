@@ -75,11 +75,15 @@ public class SimpleCalculator2 {
 
         frame.pack(); // Указываем авто настро размера изображения
 
+        frame.setVisible(true); // Видимость
+
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
     } // Конец конструктора
 
     public static void main(String[] args) {
 
-
+        SimpleCalculator2 calc = new SimpleCalculator2();
 
 
     }// Конец класса
