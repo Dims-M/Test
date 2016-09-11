@@ -10,7 +10,6 @@ public class Loader {
         recursia1(1);
 
 
-
     }
 
     public static int recursia1 (int volue){
@@ -25,6 +24,4 @@ public class Loader {
 
         return recursia1(volue); // Рекурсия. Вызов метода самого себя
     }
-
-
 }
