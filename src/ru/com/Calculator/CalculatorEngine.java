@@ -9,14 +9,22 @@ import java.awt.event.ActionListener;
  */
 public class CalculatorEngine implements ActionListener{
 
+    SimpleCalculator2 parent;
 
-    @Override
+    CalculatorEngine(SimpleCalculator2 parent){
+
+        this.parent = parent;
+    }
+
+        @Override
     public void actionPerformed(ActionEvent e) {
 
-        JButton clickedButton = (JButton)e.getSource();
-        String clickedButtonLabel = clickedButton.getText();
+            JButton clickenButton = (JButton)e.getSource();
+            String dispFildText = parent.displayFild.getText();
+            String clickedButtonLabel = clickenButton.getText();
+            parent.displayFild.setText(dispFildText + clickedButtonLabel);
 
-        JOptionPane.showConfirmDialog(null,"Text epte "+ clickedButtonLabel,"test", JOptionPane.PLAIN_MESSAGE);
+
 
 
 

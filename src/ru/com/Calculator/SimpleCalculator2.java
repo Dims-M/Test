@@ -80,7 +80,16 @@ public class SimpleCalculator2 {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         CalculatorEngine calculatorEngine = new CalculatorEngine(this);
-
+        butto0.addActionListener(calculatorEngine);
+        button1.addActionListener(calculatorEngine);
+        button2.addActionListener(calculatorEngine);
+        button3.addActionListener(calculatorEngine);
+        button4.addActionListener(calculatorEngine);
+        button5.addActionListener(calculatorEngine);
+        button6.addActionListener(calculatorEngine);
+        button7.addActionListener(calculatorEngine);
+        button8.addActionListener(calculatorEngine);
+        button9.addActionListener(calculatorEngine);
 
 
     } // Конец конструктора
