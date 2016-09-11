@@ -79,6 +79,10 @@ public class SimpleCalculator2 {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        CalculatorEngine calculatorEngine = new CalculatorEngine();
+        butto0.addActionListener(calculatorEngine);
+
+
     } // Конец конструктора
 
     public static void main(String[] args) {
