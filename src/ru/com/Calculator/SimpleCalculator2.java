@@ -90,6 +90,10 @@ public class SimpleCalculator2 {
         button7.addActionListener(calculatorEngine);
         button8.addActionListener(calculatorEngine);
         button9.addActionListener(calculatorEngine);
+        buttonPoint.addActionListener(calculatorEngine);
+        buttonEqual.addActionListener(calculatorEngine);
+
+
 
 
     } // Конец конструктора
